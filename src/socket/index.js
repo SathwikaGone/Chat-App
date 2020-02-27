@@ -2,7 +2,7 @@ import * as types from "../redux/actions/types";
 import { addUser, messageReceived, usersList } from "../redux/actions";
 
 const setupSocket = (dispatch, username) => {
-  const socket = new WebSocket("ws://localhost:8000");
+  const socket = new WebSocket("ws://localhost:8989");
 
   socket.onopen = () => {
     socket.send(
