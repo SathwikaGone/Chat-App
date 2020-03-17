@@ -1,3 +1,5 @@
+import "react-app-polyfill/ie11";
+import "react-app-polyfill/stable";
 import { createStore, applyMiddleware } from "redux";
 import createSagaMiddelware from "redux-saga";
 import reducers from "../reducers";
