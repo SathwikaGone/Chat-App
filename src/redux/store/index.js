@@ -4,7 +4,6 @@ import reducers from "../reducers";
 import rootSaga from "../store/sagas";
 import setupSocket from "../../socket";
 import username from "../../utils/chance";
-
 const sagaMiddelware = createSagaMiddelware();
 const store = createStore(reducers, applyMiddleware(sagaMiddelware));
 
