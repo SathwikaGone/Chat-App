@@ -8,7 +8,7 @@ RUN npm install
 COPY . .
 
 
-# start app
+# start 
 CMD ["npm", "start"]
 
 #changes are here
